@@ -42,6 +42,32 @@
             </column>
 
         </createTable>
+        <createTable tableName="vehicle" remarks="Vehicle information">
+            <column name="id" type="int">
+                <constraints nullable="false" unique="true" primaryKey="true"/>
+            </column>
+            <column name="name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="owner" type="int">
+                <constraints nullable="false"/>
+            </column>
+
+        </createTable>
+        <createTable tableName="owner" remarks="Vehicle information">
+            <column name="id" type="int" >
+                <constraints nullable="false" unique="true" primaryKey="true"/>
+            </column>
+            <column name="name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <addForeignKeyConstraint baseTableName="vehicle" baseColumnNames="owner" constraintName="owner_fk"
+                                 referencedTableName="owner"
+                                 referencedColumnNames="id"/>
+
+
 
 
     </changeSet>

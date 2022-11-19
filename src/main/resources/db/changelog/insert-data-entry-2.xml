@@ -18,7 +18,7 @@
             <column name="description"    value="buying office supplies"> </column>
         </insert>
         <insert tableName="vehiclelogentry">
-            <column name="regno" valueDate="N_02"> </column>
+            <column name="regno" value="N_02"> </column>
             <column name="date" valueDate="2022-11-02"> </column>
             <column name="vehicle"  valueNumeric="01"> </column>
             <column name="owner"    valueNumeric="03"> </column>
@@ -28,7 +28,7 @@
             <column name="description"    value="delivery office equipments"> </column>
         </insert>
         <insert tableName="vehiclelogentry">
-            <column name="regno" valueDate="N_03"> </column>
+            <column name="regno" value="N_03"> </column>
             <column name="date" valueDate="2022-11-04"> </column>
             <column name="vehicle"  valueNumeric="01"> </column>
             <column name="owner"    valueNumeric="03"> </column>
@@ -38,7 +38,7 @@
             <column name="description"    value="delivery sales products"> </column>
         </insert>
         <insert tableName="vehiclelogentry">
-            <column name="regno" valueDate="N_04"> </column>
+            <column name="regno" value="N_04"> </column>
             <column name="date" valueDate="2022-11-06"> </column>
             <column name="vehicle"  valueNumeric="01"> </column>
             <column name="owner"    valueNumeric="03"> </column>
@@ -48,7 +48,7 @@
             <column name="description"    value="delivery sales products"> </column>
         </insert>
         <insert tableName="vehiclelogentry">
-            <column name="regno" valueDate="N_05"> </column>
+            <column name="regno" value="N_05"> </column>
             <column name="date" valueDate="2022-11-10"> </column>
             <column name="vehicle"  valueNumeric="01"> </column>
             <column name="owner"    valueNumeric="02"> </column>
@@ -59,7 +59,7 @@
         </insert>
 
         <insert tableName="vehiclelogentry">
-            <column name="regno" valueDate="N_06"> </column>
+            <column name="regno" value="N_06"> </column>
             <column name="date" valueDate="2022-11-11"> </column>
             <column name="vehicle"  valueNumeric="02"> </column>
             <column name="owner"    valueNumeric="01"> </column>
@@ -69,7 +69,7 @@
             <column name="description"    value="servicing to outsourcing"> </column>
         </insert>
         <insert tableName="vehiclelogentry">
-            <column name="regno" valueDate="N_07"> </column>
+            <column name="regno" value="N_07"> </column>
             <column name="date" valueDate="2022-11-12"> </column>
             <column name="vehicle"  valueNumeric="02"> </column>
             <column name="owner"    valueNumeric="01"> </column>
@@ -79,7 +79,7 @@
             <column name="description"    value="servicing to outsourcing"> </column>
         </insert>
         <insert tableName="vehiclelogentry">
-            <column name="regno" valueDate="N_08"> </column>
+            <column name="regno" value="N_08"> </column>
             <column name="date" valueDate="2022-11-14"> </column>
             <column name="vehicle"  valueNumeric="02"> </column>
             <column name="owner"    valueNumeric="01"> </column>
@@ -89,7 +89,7 @@
             <column name="description"    value="servicing to outsourcing"> </column>
         </insert>
         <insert tableName="vehiclelogentry">
-            <column name="regno" valueDate="N_09"> </column>
+            <column name="regno" value="N_09"> </column>
             <column name="date" valueDate="2022-11-17"> </column>
             <column name="vehicle"  valueNumeric="02"> </column>
             <column name="owner"    valueNumeric="01"> </column>
@@ -99,7 +99,7 @@
             <column name="description"    value="servicing to outsourcing"> </column>
         </insert>
         <insert tableName="vehiclelogentry">
-            <column name="regno" valueDate="N_10"> </column>
+            <column name="regno" value="N_10"> </column>
             <column name="date" valueDate="2022-11-18"> </column>
             <column name="vehicle"  valueNumeric="02"> </column>
             <column name="owner"    valueNumeric="01"> </column>
