@@ -17,7 +17,7 @@
             <column name="id" valueNumeric = "02"> </column>
         </insert>
         <insert tableName="owner">
-            <column name="name" value="driver_01"> </column>
+            <column name="name" value="driver_03"> </column>
             <column name="id" valueNumeric = "03"> </column>
         </insert>
         <insert tableName="vehicle">
@@ -27,7 +27,7 @@
         </insert>
         <insert tableName="vehicle">
             <column name="name" value="car_01_02"> </column>
-            <column name="owner" valueNumeric="01"> </column>
+            <column name="owner" valueNumeric="02"> </column>
             <column name="id" valueNumeric = "02"> </column>
         </insert>
     </changeSet>
