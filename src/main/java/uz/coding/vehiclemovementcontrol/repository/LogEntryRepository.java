@@ -51,8 +51,12 @@ public class LogEntryRepository  {
         objects =appendValue(objects, id);
 
         jdbcTemplate.update(sql,objects);
-        sql = "SELECT vhle.date,veh.name vehicle, ow.name owner, vhle.startingodometr, vhle.endingodometr,vhle.route, vhle.description  " +
-                "FROM vehiclelogentry vhle, vehicle veh, owner ow where vhle.vehicle = veh.id and vhle.owner = ow.id  and vhle.id = ?";
+//        sql = "SELECT vhle.date,veh vehicle, ow owner, vhle.startingodometr, vhle.endingodometr," +
+//                "vhle.route, vhle.description  " +
+//                "FROM vehiclelogentry vhle, vehicle veh, owner ow " +
+//                "where vhle.vehicle = veh.id and vhle.owner = ow.id  and vhle.id = ?";
+
+        sql = "SELECT * FROM vehiclelogentry  where id = ?";
         logEntry = (LogEntry) jdbcTemplate.queryForObject(sql,
                 new Object[]{id} , new LogEntryMapper());
 

@@ -18,10 +18,10 @@
             <column name="date" type="date">
                 <constraints nullable="false"/>
             </column>
-            <column name="vehicle" type="varchar(255)">
+            <column name="vehicle" type="int">
                 <constraints nullable="false"/>
             </column>
-            <column name="owner" type="varchar(255)">
+            <column name="owner" type="int">
                 <constraints nullable="false"/>
             </column>
 
